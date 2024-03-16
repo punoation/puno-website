@@ -1,4 +1,8 @@
+"use client"
+
 import { BackgroundBeams } from "./components/ui/background-beams";
+
+import MuxPlayer from "@mux/mux-player-react"; 
 
 export default function Page() {
   return (
@@ -61,6 +65,7 @@ export default function Page() {
   </div>
 </div>
       <div className="container mx-auto mt-12 flex flex-wrap justify-center space-x-24 relative top-10 p-20">
+
   <div className="font-semibold flex w-64 h-64 border border-gray-600 p-6 items-center justify-center rounded-xl ">
     <p > It grasps the essence of your input—whether it’s a to-do item, a movie review, or a personal reflection.
           </p>
@@ -73,7 +78,11 @@ export default function Page() {
 watched with Jay?”—just search. The app acts as your memory bank, retrieving
 relevant information instantly.</div>
 </div>
-
+  <footer className="text-white p-4">
+      <div className="relative top-20 container mx-auto">
+        <p className="text-center text-lg">&copy; 2024 puno.lol</p>
+      </div>
+    </footer>
     </div>
   );
 }

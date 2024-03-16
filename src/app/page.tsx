@@ -54,12 +54,17 @@ export default function Page() {
   </div>
 </div>
       <div className="container mx-auto mt-12 flex flex-wrap justify-center space-x-24 relative top-10">
-  <div className="flex w-72 h-72 border border-gray-600 p-6">
-    <h1 className="text-lg font-semibold mb-4">Contextual Understanding</h1>
-    <p className="text-sm leading-relaxed">It grasps the essence of your input—whether it’s a to-do item, a movie review, or a personal reflection.</p>
+  <div className="font-semibold flex w-64 h-64 border border-gray-600 p-6 items-center justify-center rounded-xl ">
+    <p > It grasps the essence of your input—whether it’s a to-do item, a movie review, or a personal reflection.
+          </p>
   </div>
-  <div className="flex items-center justify-center w-72 h-72 border border-gray-400">Box 2</div>
-  <div className="flex items-center justify-center w-72 h-72 border border-gray-400">Box 3</div>
+  <div className="flex items-center justify-center w-64 h-64 border border-gray-600 rounded-xl font-semibold p-6 ">
+          <p>The app categorizes and stores your entries for example: To-Do Folders, Journal Entries, Memories, experiences, and emotions.
+          </p>
+        </div>
+  <div className="flex items-center p-6 justify-center w-64 h-64 border border-gray-600 font-semibold rounded-xl">Years later, when you wonder, “What was that movie I
+watched with Jay?”—just search. The app acts as your memory bank, retrieving
+relevant information instantly.</div>
 </div>
 
     </div>

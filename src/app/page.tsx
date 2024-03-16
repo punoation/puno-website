@@ -1,3 +1,5 @@
+"use client"
+import MuxPlayer from "@mux/mux-player-react"; 
 export default function Page() {
   return (
     <div className="bg-black min-h-screen">
@@ -47,10 +49,18 @@ export default function Page() {
 
       <div className="flex relative top-10">
   <div className="bg-black p-4 rounded-lg items-center justify-center">
-    <p className=" text-xl relative top-28 font-mono left-6">At Puno, we aim to revolutionize the way you manage your daily life, transforming mundane tasks into memorable experiences. By integrating cutting-edge technology with a user-friendly interface, Puno acts as your personal assistant, understanding your needs through conversation. We're dedicated to enhancing your productivity and enriching your life, reminding you not only of important tasks but also of the beautiful moments worth remembering.</p>
+    <p className=" text-xl relative top-28 font-mono p-6 left-6">At Puno, we aim to revolutionize the way you manage your daily life, transforming mundane tasks into memorable experiences. By integrating cutting-edge technology with a user-friendly interface, Puno acts as your personal assistant, understanding your needs through conversation. We're dedicated to enhancing your productivity and enriching your life, reminding you not only of important tasks but also of the beautiful moments worth remembering.</p>
   </div>
   <div className="ml-auto p-4">
-    <iframe src="https://youtube.com/embed/nT2ZAUy50JI?autoplay=1" width="400" height="540" allow='autoplay'></iframe>
+      <MuxPlayer
+      playbackId="ZUblgJpPJ02aPIBzXRSM7EWchaiUiw01KGsu74500w8vSI"
+      metadata={{
+        video_id: "video-id-54321",
+        video_title: "Test video title",
+        viewer_user_id: "user-id-007",
+      }}
+            style={{ width: "255px", height: "600px" }}
+    />
   </div>
 </div>
       <div className="container mx-auto mt-12 flex flex-wrap justify-center space-x-24 relative top-10">

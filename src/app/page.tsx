@@ -1,10 +1,13 @@
+import { BackgroundBeams } from "./components/ui/background-beams";
+
 export default function Page() {
   return (
     <div className="bg-black min-h-screen">
+      <BackgroundBeams/>
       <nav className=" text-white">
         <div className="container mx-auto py-4 px-6">
           <div className="flex items-center justify-between">
-            <a href="#" className="text-lg font-semibold">Logo</a>
+            <a href="#" className="text-lg font-semibold">puno</a>
             <div className="hidden md:block">
               <a href="#" className="ml-4 hover:text-gray-300">Home</a>
               <a href="#" className="ml-4 hover:text-gray-300">About</a>
@@ -15,8 +18,12 @@ export default function Page() {
         </div>
       </nav>
       <header className="text-center py-16">
-        <h1 className="text-4xl font-bold text-white">Puno!</h1>
-        <p className="mt-4 text-lg text-white">An interesting tagline that grabs attention</p>
+
+        <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
+          puno.lol 
+
+        <p className="mt-4 text-lg font-light text-white">a search engine for your life</p>
+        </p>
       </header>
       <div className="container mx-auto flex items-center justify-center space-x-8">
         <button type="button" className="flex items-center justify-center px-6 py-3 bg-purple-600 text-white rounded-xl">
@@ -47,7 +54,7 @@ export default function Page() {
 
       <div className="flex relative top-10">
   <div className="bg-black p-4 rounded-lg items-center justify-center">
-    <p className=" text-xl relative top-28 font-mono left-6">At Puno, we aim to revolutionize the way you manage your daily life, transforming mundane tasks into memorable experiences. By integrating cutting-edge technology with a user-friendly interface, Puno acts as your personal assistant, understanding your needs through conversation. We're dedicated to enhancing your productivity and enriching your life, reminding you not only of important tasks but also of the beautiful moments worth remembering.</p>
+    <p className=" text-xl relative top-28 left-6 p-10 ml-75 mr-75">At Puno, we aim to revolutionize the way you manage your daily life, transforming mundane tasks into memorable experiences. By integrating cutting-edge technology with a user-friendly interface, Puno acts as your personal assistant, understanding your needs through conversation. We're dedicated to enhancing your productivity and enriching your life, reminding you not only of important tasks but also of the beautiful moments worth remembering.</p>
   </div>
   <div className="ml-auto p-4">
     <iframe src="https://youtube.com/embed/nT2ZAUy50JI?autoplay=1" width="400" height="540" allow='autoplay'></iframe>

@@ -18,12 +18,12 @@ export default function Page() {
         </div>
       </nav>
       <header className="text-center py-16">
-
         <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
           puno.lol 
 
         <p className="mt-4 text-lg font-light text-white">a search engine for your life</p>
         </p>
+
       </header>
       <div className="container mx-auto flex items-center justify-center space-x-8">
         <button type="button" className="flex items-center justify-center px-6 py-3 bg-purple-600 text-white rounded-xl">
@@ -54,22 +54,26 @@ export default function Page() {
 
       <div className="flex relative top-10">
   <div className="bg-black p-4 rounded-lg items-center justify-center">
-    <p className=" text-xl relative top-28 left-6 p-10 ml-75 mr-75">At Puno, we aim to revolutionize the way you manage your daily life, transforming mundane tasks into memorable experiences. By integrating cutting-edge technology with a user-friendly interface, Puno acts as your personal assistant, understanding your needs through conversation. We're dedicated to enhancing your productivity and enriching your life, reminding you not only of important tasks but also of the beautiful moments worth remembering.</p>
+    <p className=" text-xl relative top-28 p-20">At Puno, we aim to revolutionize the way you manage your daily life, transforming mundane tasks into memorable experiences. <br/><br/>By integrating cutting-edge technology with a user-friendly interface, Puno acts as your personal assistant, understanding your needs through conversation. We're dedicated to enhancing your productivity and enriching your life, reminding you not only of important tasks but also of the beautiful moments worth remembering.</p>
   </div>
-  <div className="ml-auto p-4">
+  <div className="ml-auto p-4 mr-10">
     <iframe src="https://youtube.com/embed/nT2ZAUy50JI?autoplay=1" width="400" height="540" allow='autoplay'></iframe>
   </div>
 </div>
-      <div className="container mx-auto mt-12 flex flex-wrap justify-center space-x-24 relative top-10">
-  <div className="flex w-72 h-72 border border-gray-600 p-6">
-    <h1 className="text-lg font-semibold mb-4">Contextual Understanding</h1>
-    <p className="text-sm leading-relaxed">It grasps the essence of your input—whether it’s a to-do item, a movie review, or a personal reflection.</p>
+      <div className="container mx-auto mt-12 flex flex-wrap justify-center space-x-24 relative top-10 p-20">
+  <div className="font-semibold flex w-64 h-64 border border-gray-600 p-6 items-center justify-center rounded-xl ">
+    <p > It grasps the essence of your input—whether it’s a to-do item, a movie review, or a personal reflection.
+          </p>
   </div>
-  <div className="flex items-center justify-center w-72 h-72 border border-gray-400">Box 2</div>
-  <div className="flex items-center justify-center w-72 h-72 border border-gray-400">Box 3</div>
+  <div className="flex items-center justify-center w-64 h-64 border border-gray-600 rounded-xl font-semibold p-6 ">
+          <p>The app categorizes and stores your entries for example: To-Do Folders, Journal Entries, Memories, experiences, and emotions.
+          </p>
+        </div>
+  <div className="flex items-center p-6 justify-center w-64 h-64 border border-gray-600 font-semibold rounded-xl">Years later, when you wonder, “What was that movie I
+watched with Jay?”—just search. The app acts as your memory bank, retrieving
+relevant information instantly.</div>
 </div>
 
     </div>
   );
 }
-

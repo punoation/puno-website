@@ -76,7 +76,11 @@ export default function Page() {
 watched with Jay?”—just search. The app acts as your memory bank, retrieving
 relevant information instantly.</div>
 </div>
-
+  <footer className="text-white p-4">
+      <div className="relative top-20 container mx-auto">
+        <p className="text-center text-lg">&copy; 2024 puno.lol</p>
+      </div>
+    </footer>
     </div>
   );
 }
